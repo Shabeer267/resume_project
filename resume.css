@@ -1,0 +1,261 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3F3F3;
+}
+
+/* navbar :start */
+
+nav div{
+    width: 20%;
+    height: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+nav i {
+    color: #EEA302;
+    background-color: #EEA302;
+    border-radius: 25px;
+    border: none;
+}
+
+nav ul li{
+    display: inline;
+}
+
+.link a button{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+.link button:hover{
+    color: brown;
+}
+nav button{
+    border: none;
+}
+
+.cbtn
+{
+    border: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+nav ul
+{
+    margin-right: 10px;
+}
+
+/* navbar :end */
+
+
+
+.main{
+    width: 100%;
+    height: 180vh;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    width: 95%;
+    height: 95%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hd1{
+   padding-right: 82%;
+   padding-bottom: 100px;
+}
+
+.card1{
+    width: 90%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    padding: 20px 0px;
+}
+
+.wrkexp{
+    width: 50%;
+    height: 100%;
+    /* background-color: #EEA302; */
+}
+
+.table{
+    width: 50%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tb1{
+    width: 100%;
+    height: 33%;
+    /* background-color: coral; */
+}
+
+.tb2{
+    width: 100%;
+    height: 33%;
+    /* background-color: cadetblue; */
+}
+
+.tb3{
+    width: 100%;
+    height: 33%;
+    /* background-color: cornflowerblue; */
+}
+
+
+
+.card2{
+    width: 90%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    padding: 20px 0px;
+}
+
+.educ{
+    width: 50%;
+    height: 100%;
+    /* background-color: wheat; */
+
+}
+
+.table1{
+    width: 50%;
+    height: 100%;
+    /* background-color: cornsilk; */
+}
+
+.t1{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+}
+
+.t2{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(49, 84, 84); */
+}
+
+
+.card3{
+    width: 90%;
+    height: 20%;
+    /* background-color: chartreuse; */
+    display: flex;
+    padding: 20px 0px;
+}
+
+.skill{
+    width: 50%;
+    height: 100%;
+    /* background-color: #EEA302; */
+}
+
+.list{
+    width: 50%;
+    height: 100%;
+    /* background-color: #726b5b; */
+    display: flex;
+}
+ul .lt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 100px ;
+}
+
+
+
+
+.card4,.card5,.card6,.card7{
+    width: 200px;
+    height: 100px;
+    /* background-color: aqua; */
+    font-size: large;
+    font-weight: 300;
+}
+
+.contact h2{
+    font-size: larger;
+    font-weight: 600;
+    
+}
+
+.contact{
+    width: 100%;
+    height: 20vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr{
+    border: 1px light gray;
+    width: 90%;
+    margin: 0px 70px;
+    color: rgb(213, 210, 210);
+    
+    
+}
+
+.card7{
+    font-weight: 100;
+    font-size: small;
+}
+
+.card7,.card6 a{
+    color: black;
+}
+
+
